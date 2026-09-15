@@ -23,6 +23,10 @@ Assign each text its corresponding SDG category, testing several models and tuni
 | `streamlit-app/` | Web app (Streamlit) for real-time classification |
 | `Train_textosODS.xlsx` | Labeled training texts |
 
+## 📊 Results
+
+Best model (tuned pipeline): **88.0% accuracy** and **0.85 macro F1** on the test set (1,932 samples).
+
 > The trained model (~380 MB) is not included; the app loads it from `pipeline_calibrado.pkl`.
 
 ## 🛠️ Stack

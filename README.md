@@ -1,34 +1,33 @@
-# Clasificación de textos ODS 🌍
+# SDG Text Classification 🌍
 
-Clasificación automática de textos según los **Objetivos de Desarrollo Sostenible (ODS)** usando machine learning — un aporte desde el ML a la agenda 2030.
+Automatic classification of texts into **Sustainable Development Goals (SDGs)** using machine learning, with a **Streamlit web app** for real-time predictions.
 
-Microproyecto del curso **ML No Supervisado** · Maestría en Inteligencia Artificial, Universidad de los Andes.
+Microproject for the **Unsupervised ML** course · MSc in Artificial Intelligence, Universidad de los Andes.
 
-## 🎯 Objetivo
+## 🎯 Objective
 
-Asignar a cada texto la categoría ODS correspondiente, probando distintos modelos y eligiendo el de mejor rendimiento.
+Assign each text its corresponding SDG category, testing several models and tuning the best one.
 
-## ⚙️ Enfoque
+## ⚙️ Approach
 
-1. Carga y exploración de datos
-2. Pruebas para elegir el modelo
-3. Tuning del mejor modelo
-4. Modelo final y explicación de su funcionamiento
+1. Data loading and exploration
+2. Model selection experiments
+3. Hyperparameter tuning
+4. Final model + explanation of how it works
 
-## 📁 Contenido
+## 📁 Contents
 
-| Archivo | Descripción |
+| File | Description |
 |---|---|
-| `microproyecto_2_MNS.ipynb` | Notebook del microproyecto |
-| `streamlit-app/` | App web (Streamlit) para clasificar textos en tiempo real |
-| `Train_textosODS.xlsx` | Datos de entrenamiento (textos etiquetados) |
-| `Microproyecto2.pdf` | Enunciado del microproyecto |
+| `microproyecto_2_MNS.ipynb` | Project notebook |
+| `streamlit-app/` | Web app (Streamlit) for real-time classification |
+| `Train_textosODS.xlsx` | Labeled training texts |
 
-> El modelo entrenado final (~380 MB) no se incluye por su tamaño; la app lo carga desde `pipeline_calibrado.pkl`.
+> The trained model (~380 MB) is not included; the app loads it from `pipeline_calibrado.pkl`.
 
 ## 🛠️ Stack
 
 Python · scikit-learn · NLP · Streamlit · NLTK
 
 ---
-*Maestría en Inteligencia Artificial — Universidad de los Andes*
+*MSc in Artificial Intelligence — Universidad de los Andes*

@@ -20,14 +20,15 @@ Asignar a cada texto la categoría ODS correspondiente, probando distintos model
 | Archivo | Descripción |
 |---|---|
 | `microproyecto_2_MNS.ipynb` | Notebook del microproyecto |
+| `streamlit-app/` | App web (Streamlit) para clasificar textos en tiempo real |
 | `Train_textosODS.xlsx` | Datos de entrenamiento (textos etiquetados) |
 | `Microproyecto2.pdf` | Enunciado del microproyecto |
 
-> El modelo entrenado final (~380 MB) y el dashboard (~51 MB) no se incluyen por su tamaño.
+> El modelo entrenado final (~380 MB) no se incluye por su tamaño; la app lo carga desde `pipeline_calibrado.pkl`.
 
 ## 🛠️ Stack
 
-Python · scikit-learn · NLP
+Python · scikit-learn · NLP · Streamlit · NLTK
 
 ---
 *Maestría en Inteligencia Artificial — Universidad de los Andes*
